@@ -2510,7 +2510,7 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Sla Hub", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Sla Hub"})
+local Window = OrionLib:MakeWindow({Name = "VN HUB", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Sla Hub"})
 
 OrionLib:MakeNotification({
 	Name = "VN HUB",
@@ -8661,7 +8661,7 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "Sla Hub",
+                Name = "VN HUB",
                 Content = "You not have beli or fragment!",
                 Image = "rbxassetid://119980140458596",
                 Time = 5
@@ -11283,7 +11283,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "VN HUB",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://119980140458596",
                     Time = 5
@@ -11291,7 +11291,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "VN HUB",
                     Content = "Hop Server",
                     Image = "rbxassetid://119980140458596",
                     Time = 5
@@ -11299,7 +11299,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "VN HUB",
                     Content = "Hop Server",
                     Image = "rbxassetid://119980140458596",
                     Time = 5
@@ -11307,7 +11307,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "Sla Hub",
+                    Name = "VN HUB",
                     Content = "Hop Server",
                     Image = "rbxassetid://119980140458596",
                     Time = 5
@@ -11320,7 +11320,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "Sla Hub",
+        Name = "VN HUB",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://119980140458596",
         Time = 5
@@ -11363,7 +11363,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Sla Hub",
+    Name = "VN HUB",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://119980140458596",
     Time = 5
